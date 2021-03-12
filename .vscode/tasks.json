@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "C/C++: gcc active file",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-g",
+        "-O0",
+        "-o",
+        "${fileBasenameNoExtension}.o",
+        "src/${fileBasename}"
+      ],
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
