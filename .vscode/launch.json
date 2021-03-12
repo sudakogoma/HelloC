@@ -7,7 +7,7 @@
       "request": "launch",
       "preLaunchTask": "C/C++: gcc active file",
       "sourceFileMap": { "/mnt/c": "C:\\", "/mnt/e": "E:\\" },
-      "program": "./${fileBasenameNoExtension}.o",
+      "program": "./src/${fileBasenameNoExtension}.o",
       "args": [],
       "stopAtEntry": false,
       "cwd": "./",

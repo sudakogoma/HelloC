@@ -9,7 +9,7 @@
         "-g",
         "-O0",
         "-o",
-        "${fileBasenameNoExtension}.o",
+        "src/${fileBasenameNoExtension}.o",
         "src/${fileBasename}"
       ],
       "problemMatcher": ["$gcc"],
